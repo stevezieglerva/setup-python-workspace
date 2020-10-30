@@ -11,7 +11,7 @@ python3 -m venv venv
 
 echo "📄  Upddating .gitignore"
 echo "$curdir_only.code-workspace" >> .gitignore
-echo "reports/**" >> .gitignore
+echo "reports/**/**" >> .gitignore
 
 
 echo "📄  Create placeholder requirements.txt"
