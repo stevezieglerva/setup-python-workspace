@@ -14,5 +14,13 @@ echo "$curdir_only.code-workspace" >> .gitignore
 
 
 echo "📄  Create placeholder requirements.txt"
-touch requirements.txt
+echo "html-testRunner" > requirements.txt
 
+
+echo "✅  Create tests folder"
+mkdir tests
+touch tests/test_unit.py
+
+
+
+code $curdir_only.code-workspace
