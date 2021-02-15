@@ -16,10 +16,12 @@ echo "reports/**/**" >> .gitignore
 
 echo "📄  Create placeholder requirements.txt"
 echo "html-testRunner" > requirements.txt
+echo "coverage" > requirements.txt
 
 
 echo "✅  Create tests folder"
 mkdir tests
+touch __init__.py
 touch tests/test_unit.py
 curl -o test_and_format.py https://raw.githubusercontent.com/stevezieglerva/python-unittest-formatted-results/main/test_and_format.py
 curl -o report_template_json.txt https://raw.githubusercontent.com/stevezieglerva/python-unittest-formatted-results/main/report_template_json.txt
