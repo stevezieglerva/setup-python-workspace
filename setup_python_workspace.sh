@@ -16,7 +16,7 @@ echo "reports/**/**" >> .gitignore
 
 echo "📄  Create placeholder requirements.txt"
 echo "html-testRunner" > requirements.txt
-echo "coverage" > requirements.txt
+echo "coverage" >> requirements.txt
 
 
 echo "✅  Create tests folder"
