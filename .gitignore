@@ -1,5 +1,11 @@
 test_project_folder/**
 *.code-workspace
+.DS_Store
+*.txt
+*.csv
+*.jpg
+*.jpeg
+*.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
